@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08C425A227574324006DE072 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08C425A127574324006DE072 /* GoogleService-Info.plist */; };
 		08EA99D1275608410014A31D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA99D0275608410014A31D /* AppDelegate.swift */; };
 		08EA99D3275608410014A31D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA99D2275608410014A31D /* SceneDelegate.swift */; };
 		08EA99D5275608410014A31D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA99D4275608410014A31D /* ViewController.swift */; };
@@ -30,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08C4259E27573C28006DE072 /* Simple To Do List App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Simple To Do List App.entitlements"; sourceTree = "<group>"; };
+		08C425A127574324006DE072 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		08EA99CD275608410014A31D /* Simple To Do List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple To Do List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08EA99D0275608410014A31D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08EA99D2275608410014A31D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +87,8 @@
 		08EA99CF275608410014A31D /* Simple To Do List App */ = {
 			isa = PBXGroup;
 			children = (
+				08C425A127574324006DE072 /* GoogleService-Info.plist */,
+				08C4259E27573C28006DE072 /* Simple To Do List App.entitlements */,
 				08EA99D0275608410014A31D /* AppDelegate.swift */,
 				08EA99D2275608410014A31D /* SceneDelegate.swift */,
 				08EA99D4275608410014A31D /* ViewController.swift */,
@@ -172,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08EA99DD275608420014A31D /* LaunchScreen.storyboard in Resources */,
+				08C425A227574324006DE072 /* GoogleService-Info.plist in Resources */,
 				08EA99DA275608420014A31D /* Assets.xcassets in Resources */,
 				08EA99D8275608410014A31D /* Main.storyboard in Resources */,
 			);
@@ -333,14 +339,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Simple To Do List App/Simple To Do List App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5K2DV6PZPR;
+				DEVELOPMENT_TEAM = 44N89G9KPS;
 				INFOPLIST_FILE = "Simple To Do List App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.learniosdev.Simple-To-Do-List-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fidenz.trainee.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -352,14 +359,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Simple To Do List App/Simple To Do List App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5K2DV6PZPR;
+				DEVELOPMENT_TEAM = 44N89G9KPS;
 				INFOPLIST_FILE = "Simple To Do List App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.learniosdev.Simple-To-Do-List-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fidenz.trainee.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
